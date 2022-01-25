@@ -1,0 +1,439 @@
+/* inicio body */
+
+@font-face{
+	src: url(../fonts/raleway-bold.ttf);
+	font-family: "Raleway";
+	font-weight: bold;
+}
+
+@font-face{
+	src: url(../fonts/raleway-regular.ttf);
+	font-family: "Raleway";
+	font-weight: normal;
+}
+
+html,
+body {
+    
+ 	padding: 0;
+    margin: 0;
+    background: url(../images/fondo.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+
+.barra {
+    background: url(../images/barra.png);
+    height: 10px;
+    width: 100%; 
+}
+
+
+.header p{
+	margin:0;
+	color: #666;
+    font-size: 14px;
+    line-height: 20px;
+}
+.header h2{
+	margin-bottom:5px;
+}
+.header p{
+	padding-left: 10px;
+}
+
+#central{
+    position:absolute;
+    top:50%;
+    right: 50%;
+    margin-top: -300px;
+    margin-right: -215px;
+    color:#5F5F5D ;
+	}
+
+
+.header2 {
+	position: absolute;
+	margin-left:20px;
+	top:20px;
+
+}
+
+/*comienzo de imagenes*/
+
+.header2 {
+	    background: url(../images/fondo.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+background-color: #F3F3F3;
+display: none;
+}
+
+
+}
+
+.c {
+	 font-size: 13px;	 	 
+	text-decoration:none;
+	color: #5F5F5D;
+}
+
+
+
+.c div{
+	display:inline-block;
+	width: 320px;
+	text-align: left;
+	font-weight: normal;
+}
+
+
+.c1 {
+position: absolute;
+left: 920px;
+top:15px;
+}
+
+.c2 {
+	 font-size: 10px;	 	 
+	 text-decoration:none;
+	 color: #5F5F5D;
+	 width: 300px;
+	 display: none;
+}
+
+
+.c3 {
+	 font-size: 10px;	 	 
+	 text-decoration:none;
+	 color: #5F5F5D;
+	 width: 300px;
+	 display: none;
+}
+
+
+.d{
+	border:1px solid #ED7800; 
+	width:200px; 
+	border-radius: 5px 5px 5px 5px;
+	margin:5px 10% 20px 5px; 
+	padding:5px;
+
+}
+
+
+.e {
+	position: relative;
+	top:8px;  
+	
+}
+
+
+.f {
+	 font-size: 15px;	 	 
+	text-decoration:none;
+	color: #FFFFFF;
+}
+.f div{
+	
+	width: 230px;
+	text-align:left;	
+}
+
+
+.g {
+	 font-size: 15px;	 	 
+	text-decoration:none;
+	color: #5F5F5D;
+}
+.g div{
+	
+	width: 230px;
+	text-align:left;	
+}
+
+.select{
+	border:1px solid #ED7800; 
+	width:200px; 
+	border-radius: 5px 5px 5px 5px;
+	margin:5px 10% 20px 5px; 
+	padding:5px;
+}
+
+.titulo  {
+
+	position: absolute;
+	bottom: 20px;
+	left: 35px; 	 
+	text-decoration:none;
+	color: #FFFFFF; 
+}
+
+
+
+.titulo1  {
+
+	position: absolute;
+	bottom: 20px;
+	left: 50px; 	 
+	text-decoration:none;
+	color: #5F5F5D; 
+
+
+}
+
+
+.foto  {
+	
+	margin-right:120px;
+
+}
+
+
+
+.select1{
+	border:1px solid #ED7800; 
+	width:250px; 
+	border-radius: 5px 5px 5px 5px;
+	margin-top: 10px;
+	margin-right: 100px; 
+	padding:5px;
+}
+
+
+
+.select2{
+	border:1px solid #ED7800; 
+	width:200px; 
+	border-radius: 5px 5px 5px 5px;
+	margin-left: 40px; 
+	padding:5px;
+}
+
+
+.star {
+	position: absolute;
+   top: 860px;
+   left: 860px;
+}
+
+.base {
+	position: relative;		
+	float:  left;
+}
+
+
+
+.botonimagen{	
+   position: absolute;
+   top: 600px;
+   left: 1000px
+}
+
+
+.lista{	
+ width: 280px;
+ margin-top: 350px;
+ margin-left: 950px;
+}
+
+.morado {
+position: absolute;
+right:108px;
+top:280px;
+}
+
+
+.legales {
+	text-align: left;
+}
+.legales img {
+	margin-top:5px;
+	
+}
+
+
+.logo {
+	position: absolute;
+   top: 720px;
+   left: 930px;
+}
+
+.asi {
+	position: absolute;
+   top: 100px;
+   left: 1020px;
+}
+
+
+.asi1 {
+	display: none;
+}
+
+
+.morado1 {
+	display: none;
+}
+
+
+.lista1 {
+		
+	 font-size: 10px;	 	 
+	 text-decoration:none;
+	 color: #5F5F5D;
+	 width: 260px;
+	 display: none;
+
+	}
+
+.perfil {
+	display: none;
+}
+
+.logo1 {
+	display: none;
+}
+
+
+@media screen and (max-width: 500px) {
+	html,
+	body {
+	    padding: 0;
+	    margin: 0;
+	    background: #F3F3F3;
+	    color:#666;
+	}
+#central{
+    position:absolute;
+    top:50%;
+    right: 50%;
+    margin-top: -300px;
+    margin-right: -267px;
+	}
+
+
+
+	.c1 {
+		display: none;
+	}
+
+
+    
+	.c2 {
+	 font-size: 12px;	 	 
+	 text-decoration:none;
+	 color: #8B2068;
+	 width: 300px;
+		}
+
+	.c3 {
+	 font-size: 12px;	 	 
+	 text-decoration:none;
+	 color: #8B2068;
+	 width: 300px;
+		}
+
+	.tittle img {
+		width: 300px;
+	}
+
+	.foto img {
+		width: 300px;
+	}
+
+	.base img {
+		display: none;
+	}
+
+	.barra {
+		display: none;
+	}
+
+.header2 {
+		display: block;
+	}
+	
+	.botonimagen img{
+		width: 70%;
+	}
+	.logo-main{
+		width: 100%;
+		margin:15px 0;
+	}
+	
+	.no {
+		display: none;
+	}
+
+	.c2 {
+		display: block;
+	}
+
+	.no1 {
+		display: none;
+	}
+
+	.c3 {
+		display: block;
+	}
+
+	.asi1 {
+		display: block;
+		margin-left: 75px;
+	}
+
+	.morado {
+		display: none;
+	}
+
+	.morado1 {
+		display:block;
+	}
+
+	.lista1 {
+		display: block;
+	}
+
+	
+	.perfil {
+		display: block;
+		margin-left: 20px;
+	}
+
+	.logo1 {
+		display: block;
+		margin-right: 110px;
+	}
+
+}
+
+@media screen and (max-width: 1320px){
+	.c div{
+		width: 80%;
+		text-align: left;
+		margin-left: 15px;
+		font-size: 13px;
+	}
+
+	
+	.botonimagen{
+		width: 190px;
+		margin-left: 20px;
+		margin-top:10px;
+
+	}
+}
+
+@media screen and (max-width: 1320px) and (min-width: 937px){
+	.botonimagen{
+		width: 70%;
+		margin-right:15%;
+	}
+}

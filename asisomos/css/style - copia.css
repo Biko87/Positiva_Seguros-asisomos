@@ -1,0 +1,218 @@
+/* inicio body */
+
+@font-face{
+	src: url(../fonts/raleway-bold.ttf);
+	font-family: "Raleway";
+	font-weight: bold;
+}
+
+@font-face{
+	src: url(../fonts/raleway-regular.ttf);
+	font-family: "Raleway";
+	font-weight: normal;
+}
+
+html,
+body {
+    
+ 	padding: 0;
+    margin: 0;
+    background: url(../images/fondo.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.barra {
+    background: url(../images/barra.png);
+    height: 10px;
+    width: 100%; 
+}
+
+.header {
+	padding:20px;
+    float: left;
+    width: 43%;
+}
+.header p{
+	margin:0;
+	color: #666;
+    font-size: 14px;
+    line-height: 20px;
+}
+.header h2{
+	margin-bottom:5px;
+}
+.header p{
+	padding-left: 10px;
+}
+
+/*comienzo de imagenes*/
+
+.header2 {
+	    background: url(../images/fondo.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+background-color: #F3F3F3;
+display: none;
+}
+
+.form{
+   	width: 800px;	
+	float: left;
+}
+
+
+.c {
+	 font-size: 13px;	 	 
+	text-decoration:none;
+	color: #5F5F5D;
+
+}
+.c div{
+	display:inline-block;
+	width: 300px;
+	text-align: left;
+	font-weight: normal;
+}
+
+
+.d{
+	border:1px solid #ED7800; 
+	width:200px; 
+	border-radius: 5px 5px 5px 5px;
+	margin:5px 10% 20px 5px; 
+	padding:5px;
+
+}
+
+
+.e {
+	position: relative;
+	top:8px;  
+	
+}
+
+
+
+.select{
+	border:1px solid #ED7800; 
+	width:200px; 
+	border-radius: 5px 5px 5px 5px;
+	margin:5px 10% 20px 5px; 
+	padding:5px;
+}
+
+
+.base {
+	position: relative;		
+	float:  left;
+
+}
+
+
+
+.botonimagen{	
+	margin-right: 18%;
+
+}
+
+
+
+.footer{
+	background-color: #ffffff;
+	display: block;
+}
+
+.footer2{
+background-color: #F1F2F2;
+display: none;
+}
+.legales {
+	text-align: left;
+}
+.legales img {
+	margin-top:5px;
+	
+}
+
+.base2 {
+	float: center;
+}
+.base2 img {
+	margin-top:5px;
+	width: 300px;
+	
+}
+
+.contentlogos{
+	max-width: 590px;
+	margin: 0 auto;
+}
+.logo{
+	float:left;
+	width: 140px;
+}
+
+
+@media screen and (max-width: 500px) {
+	html,
+	body {
+	    padding: 0;
+	    margin: 0;
+	    background: #f4f4f4;
+	    color:#666;
+	}
+	.form{
+		position: absolute;
+		right: 0;
+		background-color: #f4f4f4 !important;
+		width: 100%;
+	}
+	form{
+		padding: 10px;
+	}
+	.header {
+		display: none;
+	}
+	.header2 {
+		display: block;
+	}
+	.footer2{
+		display: block;
+	}
+	.footer{
+		display: none;
+	}
+	.botonimagen img{
+		width: 70%;
+	}
+	.logo-main{
+		width: 100%;
+		margin:15px 0;
+	}
+	
+
+}
+
+@media screen and (max-width: 1320px){
+	.c div{
+		width: 80%;
+		text-align: left;
+	}
+	.botonimagen{
+		width: 220px;
+	}
+}
+
+@media screen and (max-width: 1320px) and (min-width: 937px){
+	.botonimagen{
+		width: 70%;
+		margin-right:15%;
+	}
+}
